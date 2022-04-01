@@ -1,0 +1,80 @@
+                /* top navigation bar */
+@font-face {
+    font-family: sans-open;
+    src: url(../OpenSans-Bold.ttf);
+}
+.top-navigation {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 106px;
+    font-family: 'sans-open', sans-serif;
+}
+.top-navigation > .nav-logo > img {
+    padding-left: 27px;
+    padding-right: 69px;
+    padding-top: 8px;
+    height: 40px;
+}
+.top-navigation > .top-navigation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.top-navigation > .top-navigation-grid > .heading {
+    margin-top: 23px;
+}
+.top-navigation > .top-navigation-grid > .heading > .yellow {
+    color: rgb(244, 225, 135);
+    font-size: 29px;
+}
+.top-navigation > .top-navigation-grid > .heading > .links-wrapper {
+    display: flex;
+}
+.top-navigation > .top-navigation-grid > .heading > .links-wrapper > .nav-link > a {
+    text-decoration: none;
+    color: azure;
+    font-size: 39px;
+}
+.top-navigation > .top-navigation-grid > .heading > .links-wrapper > .nav-link > a:focus {
+    color: azure;
+}
+.top-navigation > .top-navigation-grid > .heading > .links-wrapper > .dropdown :nth-child(1) {
+    color:rgb(179, 179, 179);
+    font-size: 28px;
+    padding-top: 13px;
+}
+.top-navigation > .top-navigation-grid > .buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+}
+.top-navigation > .top-navigation-grid > .buttons > .button {
+    background-color: rgb(40, 43, 49);
+    color: azure;
+    font-size: 28px;
+    padding: 16px 31px;
+    border: 1px;
+    border-radius: 3px;
+    font-family: 'sans-open', sans-serif;
+}
+.top-navigation > .top-navigation-grid > .buttons :nth-child(2) {
+    color: rgb(52, 55, 63);
+    font-size: 41px;
+}
+.top-navigation > .top-navigation-grid > .buttons > .button i{
+    color: rgb(75, 206, 121);
+    font-size: 25px;
+    
+}
+
+/* style for other page links */
+.other-pages > a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+}
+.other-pages > a:focus {
+    color: white;
+}
+/* end of  top-navigation CSS */

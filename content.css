@@ -1,0 +1,118 @@
+                    /* stlyes for the content portion of page */
+@font-face {
+    font-family: Lato;
+    src: url(../Lato-Black.ttf);
+}
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(116, 116, 116);
+    
+}
+.content-container {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+    grid-template-rows: 1fr;
+    background: linear-gradient(to right, rgb(36, 38, 44) , rgb(60, 64, 73) , rgb(36, 38, 44) , rgb(13, 13, 15) );
+}           /* left side */
+.content-container > .content-container-left {
+    color: rgb(179, 179, 179);
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    font-size: 58px;
+    margin-bottom: 75px;
+}                   
+.content-container > .content-container-left > .text-left-top > p > .development {
+    color: white;
+}    
+#bottom-text {
+    display: inline-block;
+    font-size: 45px;  
+}
+.content-container > .content-container-left > .text-left-top > p > i {
+    width: 48px;
+    height: 41px;
+    margin-top: -29px;
+    font-size: 53px;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: rgb(255, 209, 96);
+    transform: rotate3d(2, 4, 0, 164deg);
+}
+
+.content-container > .content-container-left > .bottom-buttons {
+    font-size: 50px;
+    display: flex;
+    padding-top: 10px;
+    margin-top: 95px;
+}
+.content-container > .content-container-left > .bottom-buttons > .sign-up {
+    font-size: 27px;
+    color: black;
+    background-color: rgb(75, 206, 121);
+    border: 1px;
+    border-radius: 4px;
+    width: 237px;
+}
+.content-container > .content-container-left > .bottom-buttons > .learn {
+    font-size: 27px;
+    color: white;
+    background-color: black;
+    border: 1px;
+    border-radius: 4px;
+    width: 172px;
+
+}
+                        /* end of left side content */
+                        /* start of right side */
+.content-container > .content-container-right > .right-side {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+    color: white;
+    font-size: 15px;
+}
+.content-container > .content-container-right > .right-side > span {
+    padding-right: 0px;
+    padding-top: 42px;
+    padding-bottom: 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.content-container > .content-container-right > .right-side > span > #color-change {
+    color: rgb(120, 218, 246);
+    text-decoration: none;
+    margin-right: 475px;
+}
+.content-container > .content-container-right > .right-side > img {
+    width: 691px;
+    height: 687px;
+    padding-bottom: 5px;
+}                               /* end of right side */
+                                    /* bottom bar */
+.bottom-bar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom: solid 90px rgb(36, 38, 44);
+    color: white;
+
+    word-spacing: -2px;
+}
+.bottom-bar-grid > .grid-text {
+    border-right: rgb(179, 179, 179) 1px solid;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-bar-grid > .grid-text > .bold {
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: -2px;
+}
